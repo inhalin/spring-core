@@ -1,4 +1,4 @@
-package hello.core.filter;
+package hello.core.scan.filter;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import org.springframework.context.annotation.FilterType;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.springframework.context.annotation.ComponentScan.*;
+import static org.springframework.context.annotation.ComponentScan.Filter;
 
 public class ComponentFilterAppConfigTest {
 
